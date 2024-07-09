@@ -1,0 +1,117 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  background-color: #ffffff;
+  
+}
+.header {
+  padding: 1px;
+  text-align: center;
+  background: #ffde07db;
+  color: white;
+  font-weight: bold;
+  box-shadow: 8px 5px 40px #252323;
+
+
+}
+#mySidenav a {
+  position: absolute; 
+  left: -80px; 
+  transition: 0.3s; 
+  padding: 15px; 
+  width: 100px; 
+  text-decoration: none; 
+  font-size: 20px; 
+  color: white; 
+  border-radius: 0 5px 5px 0; 
+}
+
+#mySidenav a:hover {
+  left: 0; 
+}
+
+#about {
+  top: 20px;
+  background-color: #ffe600;
+}
+* {
+  box-sizing: content-box;
+  
+}
+
+img {
+  vertical-align: auto;
+  left: 20%;
+  right: 20%;
+}
+
+.container {
+  position: relative;
+}
+
+.mySlides {
+  display: none;
+  
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  padding: 50px;
+
+}
+.cursor {
+  cursor: pointer;
+  background-color: #ffea00;
+
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  background-color: #ffea00;
+  font-weight: bold;
+  font-size: 50px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+  box-shadow: 10px 10px 60px #252323;}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+  
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(255, 242, 167, 0.825);
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  
+}
+
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
